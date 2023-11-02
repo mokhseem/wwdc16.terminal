@@ -1,22 +1,16 @@
-# wwdc16.terminal
+# wwdc16-auto.terminal
 
-ANSI color profiles for Terminal.app and iTerm2, inspired by http://apple.com/wwdc. Great with Vim's default color scheme, even better with [Dim].
+[wwdc16.terminal]: https://github.com/jeffkreeftmeijer/wwdc16.terminal
+[appsignal.terminal]: https://github.com/jeffkreeftmeijer/appsignal.terminal
 
-![wwdc16-dark in Terminal.app]
-![wwdc16-light in Terminal.app]
+ANSI color profile for Terminal.app, based on [wwdc16.terminal] and [appsignal.terminal], depending on the current macOS appearance. Great with Vim's default color scheme.
 
-[Dim]: https://github.com/jeffkreeftmeijer/vim-dim
-[wwdc16-dark in Terminal.app]: wwdc16-dark.png
-[wwdc16-light in Terminal.app]: wwdc16-light.png
+![wwdc16-auto.terminal in a dark appearance](wwdc16-dark.png) 
+![wwdc16-auto.terminal in a light appearance](wwdc16-light.png)
 
 ## Installation
 
-### Terminal.app
-
-    $ curl -OO https://raw.githubusercontent.com/jeffkreeftmeijer/wwdc16.terminal/master/wwdc16-{light,dark}.terminal
-    $ open wwdc16-*.terminal
-
-### iTerm2
-
-    $ curl -OO https://raw.githubusercontent.com/jeffkreeftmeijer/wwdc16.terminal/master/wwdc16-{light,dark}.itermcolors
-    $ open wwdc16-*.itermcolors
+```
+curl -O https://raw.githubusercontent.com/mokhseem/wwdc16-auto.terminal/main/wwdc16-auto.terminal &&
+open wwdc16-auto.terminal
+```
